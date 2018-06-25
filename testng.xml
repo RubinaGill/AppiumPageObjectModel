@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="1" name="Suite">
+    <listeners>
+    <listener class-name="testNGListeners.RetryListener"/>
+</listeners>
+    <!--<test name="Galaxy_S7_API_27">-->
+    <!---->
+    <!--<classes>-->
+    <!--<class name="Test.LoginScreenTest"/>-->
+    <!--<class name="Test.HomeScreenTests"/>-->
+    <!--<class name="Test.EmployeeSearchTests"/>-->
+    <!--<class name="Test.ToolkitTests"/>-->
+    <!--<class name="Test.RequestsTests"/>-->
+    <!--<class name="Test.ApprovalsTests"/>-->
+    <!--<class name="Test.ESCServicesTests"/>-->
+    <!--<class name="Test.NotificationsScreenTests"/>-->
+    <!--<class name="Test.AnalyserScreenTests"/>-->
+    <!--</classes>-->
+    <!--</test>-->
+    <test name="iPhone 6s">
+        <classes>
+            <class name="Test.LoginScreenTest"/>
+            <class name="Test.HomeScreenTests"/>
+            <class name="Test.EmployeeSearchTests"/>
+            <class name="Test.ToolkitTests"/>
+            <class name="Test.RequestsTests"/>
+            <class name="Test.ApprovalsTests"/>
+            <class name="Test.ESCServicesTests"/>
+            <class name="Test.NotificationsScreenTests"/>
+            <class name="Test.AnalyserScreenTests"/>
+        </classes>
+    </test>
+</suite>
